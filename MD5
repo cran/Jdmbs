@@ -1,0 +1,17 @@
+4ea095ddffec59861ba993e1c2b4a880 *DESCRIPTION
+5efe41f8841daf5bab7f60ea8f17da8a *NAMESPACE
+f92c3fc1809da127d765bed4f25f727f *R/DataDocument.R
+26bf90ba84f4109699f6950a362f19ad *R/Jdmbs.R
+2a65f12c4b35e87a824b244657d57739 *R/JdmbsJump.R
+c77deb10e4bcabc912e9316f54951b5f *R/JdmbsNewJump.R
+eec192f6fb7d8492dedcd596df322572 *build/vignette.rds
+6517787ae8c5ad2af6ca51b28b03eabb *data/data.rda
+3226eef4b3c9acd278c7844f9bf1a416 *inst/doc/Jdmbs-vignette.R
+43026bdd156aa20446912d7731406eae *inst/doc/Jdmbs-vignette.Rmd
+d3853f43ae31c47aa4959bdda0f60ed2 *inst/doc/Jdmbs-vignette.pdf
+4ada74fe1de71ec18215a233cef299ea *man/data.Rd
+66308a17f86258d5c2551068a6ba76c2 *man/jdm_bs.Rd
+35fbf42186ab98e2befafacb5e397a78 *man/jdm_new_bs.Rd
+321a8700c8a15ef9bcbfd0bb2a47280b *man/normal_bs.Rd
+43026bdd156aa20446912d7731406eae *vignettes/Jdmbs-vignette.Rmd
+5951af41fb469ed2d79394a1149497af *vignettes/citation.bib
