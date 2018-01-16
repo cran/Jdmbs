@@ -3,8 +3,8 @@
 #' @param  simulation.length an integer of a duration of simulation.
 #' @param  monte_carlo an integer of iterations of monte carlo.
 #' @param  start_price a vector of company's initial stock prices.
-#' @param  mu a vector of parameter of Geometric Brownian motion.
-#' @param  sigma a vector of parameter of Geometric Brownian motion.
+#' @param  mu a vector of parameter of geometric Brownian motion.
+#' @param  sigma a vector of parameter of geometric Brownian motion.
 #' @param  event_times an integer of how many times jump in Unit time.
 #' @param  jump a vector of jump parameter.
 #' @param  K a vector of option execution prices.

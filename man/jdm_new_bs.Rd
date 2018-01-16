@@ -18,9 +18,9 @@ jdm_new_bs(companies_data, companies, simulation.length = 180,
 
 \item{start_price}{a vector of company's initial stock prices.}
 
-\item{mu}{a vector of parameter of Geometric Brownian motion.}
+\item{mu}{a vector of parameter of geometric Brownian motion.}
 
-\item{sigma}{a vector of parameter of Geometric Brownian motion.}
+\item{sigma}{a vector of parameter of geometric Brownian motion.}
 
 \item{event_times}{an integer of how many times jump in Unit time.}
 
@@ -41,4 +41,3 @@ jdm_new_bs(matrix(c(1,0.2,0.3,0.4,1,0.6,0.7,0.8,1), nrow=3, ncol=3),
 3, simulation.length=60,monte_carlo=60, c(1000,500,500), c(0.005, 0.025, 0.01),
 c(0.08,0.04,0.06), 3, c(0.1,0.1,0.1), c(2500,3000,1500), c("red","blue","green"))
 }
-

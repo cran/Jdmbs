@@ -8,8 +8,8 @@
 #' @param  simulation.length an integer of a duration of simulation.
 #' @param  monte_carlo an integer of iterations of monte carlo.
 #' @param  start_price a vector of company's initial stock prices.
-#' @param  mu a vector of parameter of Geometric Brownian motion.
-#' @param  sigma a vector of parameter of Geometric Brownian motion.
+#' @param  mu a vector of parameter of geometric Brownian motion.
+#' @param  sigma a vector of parameter of geometric Brownian motion.
 #' @param  K a vector of option execution prices.
 #' @param  color a vector of colors in plot.
 #' @return premium a list of (call_premium, put_premium)

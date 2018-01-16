@@ -16,9 +16,9 @@ normal_bs(companies, simulation.length = 180, monte_carlo = 1000,
 
 \item{start_price}{a vector of company's initial stock prices.}
 
-\item{mu}{a vector of parameter of Geometric Brownian motion.}
+\item{mu}{a vector of parameter of geometric Brownian motion.}
 
-\item{sigma}{a vector of parameter of Geometric Brownian motion.}
+\item{sigma}{a vector of parameter of geometric Brownian motion.}
 
 \item{K}{a vector of option execution prices.}
 
@@ -33,4 +33,3 @@ Normal A Monte Carlo Option Pricing Algorithm
 \examples{
 normal_bs(1, simulation.length=50, monte_carlo=100,1000, 0.007, 0.03, 3000, "blue")
 }
-
