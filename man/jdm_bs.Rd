@@ -4,37 +4,41 @@
 \alias{jdm_bs}
 \title{A Monte Carlo Option Pricing Algorithm for Jump Diffusion Model}
 \usage{
-jdm_bs(companies, simulation.length = 180, monte_carlo = 1000, start_price,
-  mu, sigma, event_times, jump, K, color)
+jdm_bs(companies, simulation.length = 180, monte_carlo = 1000,
+  start_price = start_price, mu = mu, sigma = sigma,
+  event_times = event_times, jump = jump, K = K, color = color)
 }
 \arguments{
-\item{companies}{an integer of company number in order to simulate.}
+\item{companies}{: an integer of a company number in order to simulate.}
 
-\item{simulation.length}{an integer of a duration of simulation.}
+\item{simulation.length}{: an integer of a time duration of simulation.}
 
-\item{monte_carlo}{an integer of iterations of monte carlo.}
+\item{monte_carlo}{: an integer of an iteration number for monte carlo.}
 
-\item{start_price}{a vector of company's initial stock prices.}
+\item{start_price}{: a vector of company's initial stock prices.}
 
-\item{mu}{a vector of parameter of geometric Brownian motion.}
+\item{mu}{: a vector of drift parameters of geometric Brownian motion.}
 
-\item{sigma}{a vector of parameter of geometric Brownian motion.}
+\item{sigma}{: a vector of volatility parameters of geometric Brownian motion.}
 
-\item{event_times}{an integer of how many times jump in Unit time.}
+\item{event_times}{: an integer of how many times jump in unit time.}
 
-\item{jump}{a vector of jump parameter.}
+\item{jump}{: a vector of jump parameter.}
 
-\item{K}{a vector of option execution prices.}
+\item{K}{: a vector of option strike prices.}
 
-\item{color}{a vector of colors in plot.}
+\item{color}{: a vector of colors in plot.}
 }
 \value{
-premium a list of (call_premium, put_premium)
+option prices : a list of (call_price, put_price)
 }
 \description{
 A Monte Carlo Option Pricing Algorithm for Jump Diffusion Model
 }
 \examples{
-jdm_bs(3 ,simulation.length=60,monte_carlo=60, c(1000,500,500), c(0.005, 0.025, 0.01),
-c(0.08,0.04,0.06), 3, c(0.1,0.1,0.1), c(2500,3000,1500), c("red","blue","green"))
+price <- jdm_bs(3 ,simulation.length=100,monte_carlo=80,
+               c(1000,500,500), c(0.002, 0.015, 0.01),
+               c(0.08,0.04,0.06), 3, c(0.1,0.1,0.1),
+               c(1300,600,700), c("red","blue","green")
+               )
 }
