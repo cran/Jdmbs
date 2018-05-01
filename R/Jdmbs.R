@@ -3,7 +3,6 @@
 #' @import graphics
 #' @import stats
 #' @importFrom igraph graph.data.frame reciprocity dyad.census is.mutual E
-#' @import rmarkdown
 #' @param  companies : an integer of a company number in order to simulate.
 #' @param  simulation.length : an integer of a time duration of simulation.
 #' @param  monte_carlo : an integer of an iteration number for monte carlo.
